@@ -40,6 +40,7 @@ def turn_count
       @count += 1
     end
   end
+  return @count
   end
 
 
