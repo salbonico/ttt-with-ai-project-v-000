@@ -43,8 +43,8 @@ def turn_count
   return @count
   end
 
-  def taken?
-  !(@board[@index].nil? || @board[@index] == " ")
+  def taken?(index)
+  !(self.cells[index].nil? || self.cells[index] == " ")
   end
 
 
