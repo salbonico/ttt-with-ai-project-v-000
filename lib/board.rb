@@ -20,7 +20,8 @@ puts " #{self.cells[6]} | #{self.cells[7]} | #{self.cells[8]} "
 end
 
 def position(input)
-  return input.to_i - 1
+  i = input.to_i - 1
+  return self.cells[i]
 end
 
 end
