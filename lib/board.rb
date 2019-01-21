@@ -25,7 +25,7 @@ def position(input)
 end
 
 def full?
-self.each do |number|
+self.cells.each do |number|
 if number == nil or number == " "
 return false
 end
@@ -35,7 +35,7 @@ end
 
 def turn_count
   @count = 0
-  self.each do |position|
+  self.cells.each do |position|
     if position == "X"|| position == "O"
       @count += 1
     end
