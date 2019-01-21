@@ -48,5 +48,17 @@ def turn_count
   !(self.cells[index].nil? || self.cells[index] == " ")
   end
 
+  def valid_move?(input)
+    index = input.to_i - 1
+  if @index <0 || @index >8
+  return false
+  elsif
+!(self.cells[index].nil? || self.cells[index] == " ")
+  return true
+  else return false
+  end
+  end
+
+
 
 end
