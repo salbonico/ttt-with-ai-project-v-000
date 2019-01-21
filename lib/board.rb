@@ -43,7 +43,9 @@ def turn_count
   return @count
   end
 
-
+  def taken?
+  !(@board[@index].nil? || @board[@index] == " ")
+  end
 
 
 end
