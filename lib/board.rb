@@ -50,7 +50,7 @@ def turn_count
 
   def valid_move?(input)
     index = input.to_i - 1
-  if @index <0 || @index >8
+  if index <0 || index >8
   return false
   elsif
 !(self.cells[index].nil? || self.cells[index] == " ")
