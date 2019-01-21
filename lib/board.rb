@@ -53,9 +53,8 @@ def turn_count
   if index <0 || index >8
   return false
   elsif
-!(self.cells[index].nil? || self.cells[index] == " ")
-  return true
-  else return false
+  !(self.cells[index].nil? || self.cells[index] == " ")
+  
   end
   end
 
