@@ -8,7 +8,7 @@ def initialize
 end
 
 def reset!
-  @cells = [" "," "," "," "," "," "," "," "," "]
+  self.cells = [" "," "," "," "," "," "," "," "," "]
 end
 
 
