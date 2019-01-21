@@ -8,8 +8,11 @@ def initialize
 end
 
 def reset
-  self.cells = ["","","","","","","","",""]
+  @cells = ["","","","","","","","",""]
 end
+
+
+
 
 
 end
