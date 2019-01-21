@@ -44,7 +44,7 @@ def turn_count
   end
 
   def taken?(input)
-    index = self.position(input)
+    index = input.to_i - 1
   !(self.cells[index].nil? || self.cells[index] == " ")
   end
 
