@@ -19,6 +19,8 @@ puts "-----------"
 puts " #{self.cells[6]} | #{self.cells[7]} | #{self.cells[8]} "
 end
 
-
+def postion(input)
+  return input - 1
+end
 
 end
