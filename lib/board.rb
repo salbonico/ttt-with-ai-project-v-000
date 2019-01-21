@@ -4,11 +4,11 @@ attr_accessor :cells
 
 
 def initialize
-  @cells = ["","","","","","","","",""]
+  @cells = [" "," "," "," "," "," "," "," "," "]
 end
 
 def reset
-  @cells = ["","","","","","","","",""]
+  @cells = [" "," "," "," "," "," "," "," "," "]
 end
 
 
